@@ -1,13 +1,2214 @@
-body {
+ body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar-nav .nav-item{
+  padding:3px;
+  margin-left: 70px;
+  font-size: 18px;
 }
+.navbar-nav .nav-item :hover{
+  color: black;
+}
+.navbar-brand{
+  margin-left: 50px;
+}
+.navbar{
+  opacity: .9;
+  
+  
+}
+.circle{
+  position: absolute;
+  border:2px solid black;
+  height:50px;
+  width:50px;
+  border-radius: 50px;
+  margin-left: 45%;
+  margin-top:-2.5%;
+  background-color:black;   
+
+}
+.circle1{
+  position: absolute;
+  border:2px solid black;
+  height:15px;
+  width:15px;
+  border-radius: 50px;
+  background-color:black; 
+  margin-top: 2%;
+  margin-left: 1%;
+}
+.circle2{
+  position: absolute;
+  border:2px solid black;
+  height:15px;
+  width:15px;
+  border-radius: 50px;
+  background-color:black; 
+  margin-top: 4%;
+  margin-left: 75%;
+}
+.circle3{
+  position: absolute;
+  border:2px solid black;
+  height:50px;
+  width:50px;
+  border-radius: 50px;
+  background-color:black; 
+  margin-top: 1%;
+  margin-left: 99%;
+}
+.intro{
+  margin-top: 10%;
+  margin-left: 10%;
+  color:white; 
+
+}
+.intro h4{
+  margin-top: 3%;
+}
+.intro hr{
+  color:white;
+  width:19%;
+  border-top: 3px solid white;
+}
+.intross{
+  border:2px solid black;
+  width:100%;
+  height:500px;
+  background-color: black;
+}
+.circle4{
+  height:50px;
+  width:50px;
+  border-radius: 50px;
+  margin-left: 50%;
+  margin-top: -20%;
+  background:linear-gradient(grey,black);
+
+}
+.circle5{
+  height:25px;
+  width:25px;
+  border-radius: 50px;
+  margin-left: 55%;
+  margin-top: 15%;
+  background:linear-gradient(#E75151,black);
+
+}
+.circle6{
+  height:20px;
+  width:20px;
+  border-radius: 50px;
+  margin-left: 35%;
+  margin-top: 5%;
+  background-color: #404040;
+
+}
+.circle7{
+  height:20px;
+  width:20px;
+  border-radius: 50px;
+  margin-left: 90%;
+  margin-top: -35%;
+  background:linear-gradient(#404040,black) ;
+}
+.intross .intro img{
+  margin-left: 60%;
+  height: 450px;
+}
+.decor {
+  width:250px;
+  height:250px;
+  border-radius: 50%;
+  margin-top: -10%;
+  margin-left: -10%;
+  background-color: #E75151;
+  overflow: hidden;
+}
+.aboutme{
+  border:2px solid black;
+  width:100%;
+  height:700px;
+  background-color: black;
+  margin-top: -11%;
+
+}
+.aboutme .circle9{
+  width:250px;
+  height:250px;
+  border-radius: 50%;
+  margin-left: -10%;
+  margin-top: -10%;
+  background-color: #E75151;
+}
+.aboutme h1{
+  color:white;
+  margin-top: 10%;
+  margin-left: 20%;
+}
+.aboutme  hr{
+  color:white;
+  width:5%;
+  border-top: 3px solid white;
+  margin-left: 25%;
+}
+.content{
+  color: white;
+  width:340px;
+  height:330px;
+  text-align: justify;
+  margin-left:55%;
+  margin-top: -15%;
+  background-color: #E75151;
+  border-radius: 5%;
+  
+}
+.content p{
+  padding:15px;
+}
+.decor2{
+  width:250px;
+  height:250px;
+  border-radius: 50%;
+  margin-top: -10%;
+  margin-right: -10%;
+  background-color: #E75151;
+  overflow: hidden;
+  float:right;
+}
+.option{
+  display: grid;
+}
+.hire {
+  background-color: #E75151;
+  width:130px;
+  height: 30px;
+  border-radius: 45px;
+  margin-left: 15%;
+  margin-top: -10%;
+  box-shadow: 0 0px 40px #E75151,0 0px 40px #E75151;
+}
+.hire p{
+  color:white;
+  text-align: center;
+  
+}
+.hire p .hireme{
+  text-decoration: none;
+  color:white;
+}
+.cv{
+  background-color: #E75151;
+  width:130px;
+  height: 30px;
+  border-radius: 45px;
+  margin-left: 30%;
+  margin-top: -10%;
+  box-shadow: 0 0px 40px #E75151,0 0px 40px #E75151;
+}
+.cv p{
+  color:white;
+  text-align: center;
+}
+.cv p .downloadcv{
+  text-decoration:none;
+  color:white;
+}
+.skills{
+  border:2px solid black;
+  width:100%;
+  height:700px;
+  background-color: black;  
+}
+.skills h1{
+  color:#E75151;
+  margin-top: 5%;
+  margin-left: 45%;
+}
+.skills hr{
+  color:#E75151;
+  width:3%;
+  border-top: 5px solid #E75151;
+  margin-left:47.5%;
+}
+.skillss{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap:25%;
+  grid-row-gap:50%;
+  width:70%;
+  margin-left: 15%;
+  margin-top: 10%;
+  
+ 
+}
+.skills .sk1{
+  border:2px solid white; 
+  background-color: white;
+  border-radius:20px;
+}
+.skills .sk1 p{
+  color:black;
+  text-align: center;
+  padding-top: 5%;
+}
+.skills .sk2{
+  border:2px solid white;
+  background-color: white;
+  border-radius:20px;
+}
+.skills .sk2 p{
+  color:black;
+  text-align: center;
+  padding: 5%;
+}
+.skills .sk3{
+  border:2px solid white;
+  background-color: white;
+  border-radius:20px;
+}
+.skills .sk3 p{
+  color:black;
+  text-align: center;
+  padding: 5%;
+}
+.skills .sk4{
+  border:2px solid white;
+  background-color: white;
+  border-radius:20px;
+}
+.skills .sk4 p{
+  color:black;
+  text-align: center;
+  padding: 5%;
+}
+.skillss .sk1 .circle10{
+  border:2px solid white;
+  background-color: white;
+  width:60px;
+  height:60px;
+  border-radius: 45px;
+  margin-top: -16%;
+  margin-left: -8%;
+  box-shadow:0px 0px 50px #E75151,0px 0px 50px #E75151  ;
+
+}
+.ocircle{
+  position: absolute;
+  background-color: black;
+  width:65px;
+  height:150px;
+  margin-top: 6%;
+  margin-left:10.5% ;
+ 
+}
+.skillss .sk2 .circle11{
+  border:2px solid white;
+  background-color: white;
+  width:60px;
+  height:60px;
+  border-radius: 45px;
+  margin-top: -22%;
+  margin-left: -8%;
+  box-shadow:0px 0px 50px #E75151,0px 0px 50px #E75151  ;
+
+}
+.ocircle1{
+  position: absolute;
+  background-color:black;
+  width:65px;
+  height:150px;
+  margin-top: 6%;
+  margin-left:54% ;
+ 
+}
+.skillss .sk3 .circle12{
+  border:2px solid white;
+  background-color: white;
+  width:60px;
+  height:60px;
+  border-radius: 45px;
+  margin-top: -20%;
+  margin-left: -8%;
+  box-shadow:0px 0px 50px #E75151,0px 0px 50px #E75151  ;
+
+}
+.ocircle2{
+  position: absolute;
+  background-color:black;
+  width:65px;
+  height:170px;
+  margin-top: 6%;
+  margin-left:10.5% ;
+  margin-top: 15%;
+  margin-left:10.5% ;
+ 
+}
+.skillss .sk4 .circle13{
+  border:2px solid white;
+  background-color: white;
+  width:60px;
+  height:60px;
+  border-radius: 45px;
+  margin-top: -21%;
+  margin-left: -8%;
+  box-shadow:0px 0px 50px #E75151,0px 0px 50px #E75151  ;
+
+}
+.ocircle3{
+  position: absolute;
+  background-color:black;
+  width:65px;
+  height:170px;
+  margin-top: 6%;
+  margin-left:10.5% ;
+  margin-top: 15%;
+  margin-left:54% ;
+ 
+}
+.skills .sk1 img{
+  position: absolute;
+  width:50px;
+  height:50px;
+  margin-left: 4%;
+  margin-top: 1%;
+}
+.skills .sk2 img{
+  position: absolute;
+  width:50px;
+  height:50px;
+  margin-left: 4%;
+  margin-top: 1%;
+}
+.skills .sk3 img{
+  position: absolute;
+  width:50px;
+  height:50px;
+  margin-left: 4%;
+  margin-top: 1%;
+}
+.skills .sk4 img{
+  position: absolute;
+  width:50px;
+  height:50px;
+  margin-left: 4%;
+  margin-top: 1%;
+}
+.skills .glowcircle{
+  border:2px solid white;
+  position: absolute;
+  width:50px;
+  height:50px;
+  border-radius:45px;
+  margin-left: 10%;
+  margin-top: -5%;
+  background-color: white;
+  box-shadow:0px 0px 80px white,0px 0px 80px white;
+}
+.skills .glowcircle1{
+  border:2px solid white;
+  position: absolute;
+  width:35px;
+  height:35px;
+  border-radius:45px;
+  margin-top: 1%;
+  margin-left: 5%;
+  background-color: white;
+  box-shadow:0px 0px 50px white,0px 0px 50px white;
+}
+.skills .glowcircle2{
+  border:2px solid white;
+  position: absolute;
+  width:50px;
+  height:50px;
+  border-radius:45px;
+  margin-left: 90%;
+  margin-top: 13%;
+  background-color: white;
+  box-shadow:0px 0px 80px white,0px 0px 80px white;
+}
+.skills .glowcircle3{
+  border:2px solid white;
+  position: absolute;
+  width:35px;
+  height:35px;
+  border-radius:45px;
+  margin-top: 19%;
+  margin-left: 83%;
+  background-color: white;
+  box-shadow:0px 0px 50px white,0px 0px 50px white;
+}
+.tools{
+  border:2px solid black;
+  width:100%;
+  height:700px;
+  background-color: black; 
+}
+.tools .rectangle{
+  width:100%;
+  height:15%;
+  background-color: #E75151;
+  margin-top: 5%;
+}
+.tools .rectangle .circle14{
+  position: absolute;
+  width:50px;
+  height:50px;
+  border-radius:45px;
+  margin-top: 6.5%;
+  background-color: black;
+}
+.tools .rectangle .circle15{
+  position: absolute;
+  width:50px;
+  height:50px;
+  border-radius:45px;
+  margin-top: 6.5%;
+  margin-left: 8%;
+  background-color: black;
+}
+.tools .rectangle .circle16{
+  position: absolute;
+  width:50px;
+  height:50px;
+  border-radius:45px;
+  margin-top: 6.5%;
+  margin-left: 16%;
+  background-color: black;
+}
+.tools .rectangle .circle17{
+  position: absolute;
+  width:50px;
+  height:50px;
+  border-radius:45px;
+  margin-top: 6.5%;
+  margin-left: 24%;
+  background-color: black;
+}
+.tools .rectangle .circle18{
+  position: absolute;
+  width:50px;
+  height:50px;
+  border-radius:45px;
+  margin-top: 6.5%;
+  margin-left: 24%;
+  background-color: black;
+}
+.tools .rectangle .circle19{
+  position: absolute;
+  width:50px;
+  height:50px;
+  border-radius:45px;
+  margin-top: 6.5%;
+  margin-left: 32%;
+  background-color: black;
+}
+.tools .rectangle .circle20{
+  position: absolute;
+  width:50px;
+  height:50px;
+  border-radius:45px;
+  margin-top: 6.5%;
+  margin-left: 40%;
+  background-color: black;
+}
+.tools .rectangle .circle21{
+  position: absolute;
+  width:50px;
+  height:50px;
+  border-radius:45px;
+  margin-top: 6.5%;
+  margin-left: 48%;
+  background-color: black;
+}
+.tools .rectangle .circle22{
+  position: absolute;
+  width:50px;
+  height:50px;
+  border-radius:45px;
+  margin-top: 6.5%;
+  margin-left: 56%;
+  background-color: black;
+}
+.tools .rectangle .circle23{
+  position: absolute;
+  width:50px;
+  height:50px;
+  border-radius:45px;
+  margin-top: 6.5%;
+  margin-left: 64%;
+  background-color: black;
+}
+.tools .rectangle .circle24{
+  position: absolute;
+  width:50px;
+  height:50px;
+  border-radius:45px;
+  margin-top: 6.5%;
+  margin-left: 72%;
+  background-color: black;
+}
+.tools .rectangle .circle25{
+  position: absolute;
+  width:50px;
+  height:50px;
+  border-radius:45px;
+  margin-top: 6.5%;
+  margin-left: 80%;
+  background-color: black;
+}
+.tools .rectangle .circle26{
+  position: absolute;
+  width:50px;
+  height:50px;
+  border-radius:45px;
+  margin-top: 6.5%;
+  margin-left: 88%;
+  background-color: black;
+}
+.tools .rectangle .circle28{
+  position: absolute;
+  width:50px;
+  height:50px;
+  border-radius:45px;
+  margin-top: 6.5%;
+  margin-left: 96%;
+  background-color: black;
+}
+
+.tools  p {
+  position: absolute;
+  color:white;
+  margin-left: 45%;
+  margin-top: 6%;
+  font-size: 36px;
+}
+.tools hr{
+  border-top:3px solid white;
+  width:50px;
+  margin-top: 11%;
+  margin-left:46.5%;
+}
+.tools .tool1 img{
+  width:10%;
+  height:10%;
+  margin-left: 20%;
+  margin-top: 5%;
+
+}
+.tools .tool2 img{
+  width:10%;
+  height:15%;
+  margin-left: 45%;
+  margin-top: -15%;
+
+}
+.tools .tool3 img{
+  width:10%;
+  height:15%;
+  margin-left: 70%;
+  margin-top: -20%;
+
+}
+.begginer1 h4{
+  color:white;
+  margin-left: 21%;
+  
+}
+.begginer2 h4{
+  color:white;
+  margin-left: 45.5%;
+  margin-top: -3%;
+  
+}
+.begginer3 h4{
+  color:white;
+  margin-left: 71%;
+  margin-top: -3%;
+  
+}
+.tools .glowcircle4{
+  border:2px solid white;
+  position: absolute;
+  width:20px;
+  height:20px;
+  border-radius:45px;
+  margin-top: -15%;
+  margin-left: 8%;
+  background-color: white;
+  box-shadow:0px 0px 30px white,0px 0px 30px white;
+}
+.tools .glowcircle5{
+  border:2px solid white;
+  position: absolute;
+  width:35px;
+  height:35px;
+  border-radius:45px;
+  margin-top: -10%;
+  margin-left: 3%;
+  background-color: white;
+  box-shadow:0px 0px 50px white,0px 0px 50px white;
+}
+.tools .glowcircle6{
+  border:2px solid white;
+  position: absolute;
+  width:35px;
+  height:35px;
+  border-radius:45px;
+  margin-top: -10%;
+  margin-left: 90%;
+  background-color: white;
+  box-shadow:0px 0px 50px white,0px 0px 50px white;
+}
+.tools .glowcircle7{
+  border:2px solid white;
+  position: absolute;
+  width:20px;
+  height:20px;
+  border-radius:45px;
+  margin-top: -15%;
+  margin-left: 94%;
+  background-color: white;
+  box-shadow:0px 0px 30px white,0px 0px 30px white;
+}
+.projects{
+  border:2px solid black;
+  width:100%;
+  height:1500px;
+  background-color: black; 
+}
+.projects p{
+  position: absolute;
+  color:#E75151;
+  margin-left: 45%;
+  margin-top: 6%;
+  font-size: 36px;
+}
+.projects hr{
+  border-top:3px solid #E75151 ;
+  width:50px;
+  margin-top: 11%;
+  margin-left:48%;
+}
+.projects .project{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap:30%;
+  grid-row-gap:10%;
+  margin-top: 10%;
+  margin-left: 10%;
+  width:80%;
+  height:20%;
+
+}
+.projects .project .project1{
+  border:2px solid white;
+  border-radius:20px;
+
+}
+.projects .project .project2{
+  border:2px solid white;
+  border-radius:20px;
+}
+.projects  .project3{
+  border:2px solid white;
+  border-radius:20px;
+  margin-left: 36.5%;
+  margin-top: 10%;
+  width:30%;
+  height:20%;
+}
+.projects .project .project1 p {
+  color:white;
+  margin-left: 3.5%;
+  font-size: 18px;
+  margin-top: 3%;
+
+}
+.projects .project .project1 .description1{
+  color:white;
+  margin-left: 3.5%;
+  font-size: 16px;
+  margin-top: 8%;
+  width:15%;
+
+}
+.projects .project .project1 img{
+  width:35px;
+  height:35px;
+  margin-top: 70%;
+  margin-left: 13%;
+}
+.projects .project .project1 .onprocess{
+  position: absolute;
+  color:white;
+  margin-left:6.9%;
+  margin-top: -2.5%;
+}
+.projects .project .project1 .gb1{
+  position: absolute;
+  width:10%;
+  height:30px;
+  margin-left: 16%;
+  margin-top:-2.5%;
+  border-radius:45px;
+  background-color: #E75151;
+  box-shadow:0 0 20px #E75151, 0 0 20px #E75151;
+}
+.projects .project .project1 .gb1 p{
+  color:white;
+  margin-left: 35px;
+  margin-top: -1px;
+}
+.projects .project .project2 p {
+  color:white;
+  margin-left: 3.5%;
+  font-size: 18px;
+  margin-top: 3%;
+
+}
+.projects .project .project2 .description2{
+  color:white;
+  margin-left: 3.5%;
+  font-size: 16px;
+  margin-top: 8%;
+  width:15%;
+
+}
+.projects .project .project2 img{
+  width:35px;
+  height:35px;
+  margin-top: 70%;
+  margin-left: 13%;
+}
+.projects .project .project2 .onprocess{
+  position: absolute;
+  color:white;
+  margin-left:6.9%;
+  font-size: 16px;
+  margin-top: -2.5%;
+}
+.projects .project .project2 .gb2{
+  position: absolute;
+  width:10%;
+  height:30px;
+  margin-left: 16%;
+  margin-top:-2.5%;
+  border-radius:45px;
+  background-color: #E75151;
+  box-shadow:0 0 20px #E75151, 0 0 20px #E75151;
+}
+.projects .project .project2 .gb2 p{
+  color:white;
+  margin-left: 35px;
+  margin-top: -1px;
+}
+.projects  .project3 .books p {
+  color:white;
+  margin-left: 3.5%;
+  font-size: 16px;
+  margin-top: 3%;
+
+}
+.projects  .project3 .description3{
+  color:white;
+  margin-left: 3.5%;
+  font-size: 16px;
+  margin-top: 8%;
+  width:15%;
+
+}
+.projects  .project3 img{
+  width:35px;
+  height:35px;
+  margin-top: 60%;
+  margin-left: 13%;
+}
+.projects  .project3 .available{
+  position: absolute;
+  color:white;
+  margin-left:6.9%;
+  margin-top: -2.5%;
+  font-size: 16px;
+}
+.projects  .project3 .gb3{
+  position: absolute;
+  width:10%;
+  height:30px;
+  margin-left: 18%;
+  margin-top:-2.5%;
+  border-radius:45px;
+  background-color: #E75151;
+  box-shadow:0 0 20px #E75151, 0 0 20px #E75151;
+}
+.projects  .project3 .gb3 p{
+  color:white;
+  margin-left: 35px;
+  margin-top: -1px;
+  font-size: 16px;
+}
+.projects  .project3 .project4{
+  position: absolute;
+  color:white;
+  margin-top: 3%;
+  margin-left: 10%;
+  font-size: 18px;
+  width:15%;
+
+}
+.connect{
+  border:2px solid black;
+  background-color: black;
+  width:100%;
+  height:1000px;
+  background-color: black; 
+}
+.connect .circle29{
+  position: absolute;
+  width:50px;
+  height:50px;
+  border-radius:45px;
+  margin-top: 6.5%;
+  margin-left: 98%;
+  background-color:#E75151;
+
+}
+.connect .circle30{
+  position: absolute;
+  width:15px;
+  height:15px;
+  border-radius:45px;
+  margin-top: 6.5%;
+  margin-left: 3%;
+  background-color:#E75151;
+
+}
+.connect .circle31{
+  position: absolute;
+  width:40px;
+  height:40px;
+  border-radius:45px;
+  margin-top: 19%;
+  margin-left: 49%;
+  background-color:grey;
+
+}
+.connect .circle32{
+  position: absolute;
+  width:40px;
+  height:40px;
+  border-radius:45px;
+  margin-top: -1%;
+  margin-left: 23%;
+  background-color:rgb(237, 234, 234);
+  overflow: hidden;
+
+}
+.connect .circle33{
+  position: absolute;
+  width:25px;
+  height:25px;
+  border-radius:45px;
+  margin-top: 30%;
+  margin-left: 53%;
+  background-color:rgb(64, 61, 61);
+  overflow: hidden;
+
+}
+.connect .circle34{
+  position: absolute;
+  width:25px;
+  height:25px;
+  border-radius:45px;
+  margin-top: 25%;
+  margin-left: 70%;
+  background-color:#E75151;
+  overflow: hidden;
+
+}
+.connect .circle35{
+  position: absolute;
+  width:25px;
+  height:25px;
+  border-radius:45px;
+  margin-top: 13%;
+  margin-left: 90%;
+  background-color:rgb(36, 35, 35);
+  overflow: hidden;
+
+}
+.connect .circle36{
+  position: absolute;
+  width:35px;
+  height:35px;
+  border-radius:45px;
+  margin-top: 50%;
+  margin-left: 95%;
+  background:linear-gradient(#E75151,black);
+
+}
+.connect .start{
+  color:white;
+  margin-left: 8%;
+  margin-top: 10%;
+}
+.connect .saying {
+  color:white;
+  margin-left: 8%;
+}
+.connect .saying p {
+  position: absolute;
+  color:#E75151;
+  margin-left: 11%;
+  margin-top: -4%;
+
+}
+.connect .glowcircle8{
+  width:10%;
+  height:5%;
+  margin-top: 5%;
+  margin-left:8%;
+  border-radius:45px;
+  background-color: #E75151;
+  box-shadow: 0 0 20px#E75151,0 0 20px #E75151 ;
+}
+.connect .glowcircle8 p{
+  color:black;
+  text-align: center;
+  padding: 9%;  
+}
+.connect .connectthrough img{
+  width:3%;
+  height:5%;
+  margin-left: 2%;
+}
+.connect .connectthrough {
+  margin-left: 6%;
+  margin-top: 3%;
+}
+.connect .connectthrough .connectdetails{
+  border:2px solid white;
+  width:40%;
+  height:30rem;
+  margin-left: 50%;
+  margin-top: -30%;
+  border-radius:20px;
+}
+.connect .connectthrough  .name input{
+  position:absolute;
+  width:23rem;
+  height:3rem;
+  margin-left: 50%;
+  margin-top: -20%;
+  border-radius:10px;
+  background-color: #404040;
+}
+.connect .connectthrough  .second input{
+  width:23rem;
+  height:3rem;
+  margin-left: -12%;
+  margin-top: -20%;
+  border-radius:10px;
+  background-color: #404040;
+}
+.connect .connectthrough  .name ::placeholder{
+  color:white;
+  opacity: 0.9;
+  font-size: 16px;
+  padding-left:2%;
+}
+.connect .connectthrough  .second ::placeholder{
+  color:white;
+  opacity: 0.9;
+  font-size: 16px;
+  padding-left:2%;
+}
+.connect .connectthrough  .third ::placeholder{
+  color:white;
+  opacity: 0.9;
+  font-size: 16px;
+  padding-left:2%;
+}
+.connect .connectthrough  .third input{
+  width:23rem;
+  height:9rem;
+  margin-left: -12%;
+  margin-top: -10%;
+  border-radius:10px;
+  background-color: #404040;
+}
+
+
+.connect .connectthrough .top{
+  position: absolute;
+  color:white;
+  margin-top:-20rem;
+  margin-left: 40.5rem;
+  font-size: 24px;
+}
+.connect .connectthrough .name{
+  position: absolute;
+  color:white;
+  margin-top:-15rem;
+  margin-left: 38rem;
+  font-size: 18px;
+}
+.connect .connectthrough .second{
+  position: absolute;
+  color:white;
+  margin-top:-9.3rem;
+  margin-left: 40.5rem;
+  font-size: 18px;
+}
+.connect .connectthrough .third{
+  position: absolute;
+  color:white;
+  margin-top:-3rem;
+  margin-left: 40.5rem;
+  font-size: 18px;
+}
+.connect .connectthrough .connectoutline{
+  position: absolute;
+  border:2px solid white;
+  width:30rem;
+  height:35rem;
+  margin-top: -29%;
+  margin-left: 45%;
+  border-radius:30px;
+}
+.connect .connectthrough .submit{
+  position: absolute;
+  margin-top:6rem;
+  margin-left: 45rem;
+  font-size: 18px;
+}
+.connect .connectthrough  .submit input{
+  position:absolute;
+  color:white;
+  font-size: 16px;
+  width:10rem;
+  height:3rem;
+  margin-left: 45%;
+  margin-top: -20%;
+  border-radius:10px;
+  background-color: #404040;
+}
+@media (max-width:600px){
+  .circle{
+      position: absolute;
+      border:2px solid black;
+      height:50px;
+      width:50px;
+      border-radius: 50px;
+      margin-left: 45%;
+      margin-top:-2.5%;
+      background-color:black;   
+  
+  }
+  .circle1{
+      position: absolute;
+      border:2px solid black;
+      height:15px;
+      width:15px;
+      border-radius: 50px;
+      background-color:black; 
+      margin-top: 2%;
+      margin-left: 1%;
+  }
+  .circle2{
+      position: absolute;
+      border:2px solid black;
+      height:15px;
+      width:15px;
+      border-radius: 50px;
+      background-color:black; 
+      margin-top: 4%;
+      margin-left: 75%;
+  }
+  .circle3{
+      position: absolute;
+      border:2px solid black;
+      height:50px;
+      width:50px;
+      border-radius: 50px;
+      background-color:black; 
+      margin-top: 1%;
+      margin-left: 99%;
+  }
+  .intro{
+      margin-top: 10%;
+      margin-left: 5%;
+      color:white; 
+  
+  }
+  .intro h1 {
+      margin-top: 30%;
+      margin-left: 5%;
+      color:white; 
+      font-size: 18px;
+  
+  }
+  .intro h2 {
+      margin-top: 3%;
+      margin-left: 5%;
+      color:white; 
+      font-size: 18px;
+  
+  }
+  .intro h4{
+      font-size: 16px;
+      margin-top: 5%;
+      margin-left: 5%;
+  }
+  .intro hr{
+      color:white;
+      width:25%;
+      margin-left: 5%;
+      border-top: 3px solid white;
+  }
+  .intross{
+      border:2px solid black;
+      width:100%;
+      height:500px;
+      background-color: black;
+  }
+  .circle4{
+      height:50px;
+      width:50px;
+      border-radius: 50px;
+      margin-left: 40%;
+      margin-top: -20%;
+      background:linear-gradient(grey,black);
+  
+  }
+  .circle5{
+      height:25px;
+      width:25px;
+      border-radius: 50px;
+      margin-left: 45%;
+      margin-top: 15%;
+      background:linear-gradient(#E75151,black);
+  
+  }
+  .circle6{
+      height:20px;
+      width:20px;
+      border-radius: 50px;
+      margin-left: 25%;
+      margin-top: 5%;
+      background-color: #404040;
+  
+  }
+  .circle7{
+      height:20px;
+      width:20px;
+      border-radius: 50px;
+      margin-left: 90%;
+      margin-top: -35%;
+      background:linear-gradient(#404040,black) ;
+  }
+  .intross .intro img{
+      position: absolute;
+      margin-top:-30%;
+      margin-left: 35%;
+      width:63%;
+      height: 350px;
+  }
+  .decor {
+      width:250px;
+      height:250px;
+      border-radius: 50%;
+      margin-top: -25%;
+      margin-left: -35%;
+      background-color: #E75151;
+      overflow: hidden;
+  }
+  .aboutme{
+      border:2px solid black;
+      width:100%;
+      height:700px;
+      background-color: black;
+      margin-top:-45%;
+  
+  }
+  .aboutme .circle9{
+      width:250px;
+      height:250px;
+      border-radius: 50%;
+      margin-left: -35%;
+      margin-top: -21%;
+      background-color: #E75151;
+  }
+  .aboutme .h1 {
+      color:white;
+      margin-top: 10%;
+      margin-left: 5%;
+      font-size: 18px;
+  }
+  .aboutme  hr{
+      color:white;
+      width:5%;
+      border-top: 3px solid white;
+      margin-left: 15%;
+      margin-top: 1%;
+  }
+  .content{
+      color: white;
+      width:225px;
+      height:400px;
+      text-align: justify;
+      margin-left:36%;
+      margin-top: -30%;
+      background-color:black;
+      border-radius: 5%;
+      
+  }
+  .content p{
+      padding:15px;
+      font-size: 12px;
+  }
+  .decor2{
+      width:250px;
+      height:250px;
+      border-radius: 50%;
+      margin-top: -50%;
+      margin-right: -40%;
+      background-color: #E75151;
+      overflow: hidden;
+      float:right;
+  }
+  .hire {
+      background-color: #E75151;
+      width:65px;
+      height: 30px;
+      border-radius: 45px;
+      margin-left: 3.5%;
+      margin-top: -30%;
+      box-shadow: 0 0px 40px #E75151,0 0px 40px #E75151;
+  }
+  .hire p{
+      color:white;
+      text-align: center;
+      font-size: 12px;
+      padding: 6%;
+      
+  }
+  .hire p .hireme{
+      text-decoration: none;
+      color:white;
+  }
+  .cv{
+      background-color: #E75151;
+      width:100px;
+      height: 30px;
+      border-radius: 45px;
+      margin-left: 25%;
+      margin-top: -30%;
+      box-shadow: 0 0px 40px #E75151,0 0px 40px #E75151;
+  }
+  .cv p{
+      color:white;
+      text-align: center;
+  }
+  .cv p .downloadcv{
+      text-decoration:none;
+      color:white;
+      font-size: 12px;
+  }
+  .skills{
+      border:2px solid black;
+      width:100%;
+      height:600px;
+      background-color: black;  
+  }
+  .skills h1{
+      color:#E75151;
+      margin-top: -30%;
+      margin-left: 40%;
+  }
+  .skills hr{
+      color:#E75151;
+      width:3%;
+      border-top: 5px solid #E75151;
+      margin-left:23%;
+      
+  }
+  .skillss{
+      display: grid;
+      grid-template-columns: 1fr ;
+      grid-column-gap:25%;
+      grid-row-gap:25%;
+      width:70%;
+      margin-left: 25%;
+      margin-top: 20%;
+      
+     
+  }
+  .skills .sk1{
+      border:2px solid black; 
+      background-color:black;
+      border-radius:20px;
+      
+  }
+  .skills .sk1 p{
+      color:white;
+      text-align: center;
+      padding-top: 5%;
+      margin-left: 5%;
+  }
+  .skills .sk2{
+      border:2px solid black; 
+      background-color:black;
+      border-radius:20px;
+  }
+  .skills .sk2 p{
+      color:white;
+      text-align: center;
+      padding: 5%;
+      margin-left: 5%;
+  }
+  .skills .sk3{
+      border:2px solid black; 
+      background-color:black;
+      border-radius:20px;
+  }
+  .skills .sk3 p{
+      color:white;
+      text-align: center;
+      padding: 5%;
+      margin-left: 5%;
+  }
+  .skills .sk4{
+      border:2px solid black; 
+      background-color:black;
+      border-radius:20px;
+  }
+  .skills .sk4 p{
+      color:white;
+      text-align: center;
+      padding: 5%;
+      margin-left: 5%;
+  }
+  .skillss .sk1 .circle10{
+      border:2px solid white;
+      background-color: white;
+      width:60px;
+      height:60px;
+      border-radius: 45px;
+      margin-top: -16%;
+      margin-left: -8%;
+      box-shadow:0px 0px 50px #E75151,0px 0px 50px #E75151  ;
+  
+  }
+  .ocircle{
+      position: absolute;
+      background-color:#E75151;
+      width:65px;
+      height:150px;
+      margin-top: 6%;
+      margin-left:-50% ;
+     
+  }
+  .skillss .sk2 .circle11{
+      border:2px solid white;
+      background-color: white;
+      width:60px;
+      height:60px;
+      border-radius: 45px;
+      margin-top: -22%;
+      margin-left: -8%;
+      box-shadow:0px 0px 50px #E75151,0px 0px 50px #E75151  ;
+  
+  }
+  .ocircle1{
+      position: absolute;
+      background-color:#E75151;
+      width:65px;
+      height:150px;
+      margin-top: 6%;
+      margin-left:-50% ;
+     
+  }
+  .skillss .sk3 .circle12{
+      border:2px solid white;
+      background-color: white;
+      width:60px;
+      height:60px;
+      border-radius: 45px;
+      margin-top: -20%;
+      margin-left: -8%;
+      box-shadow:0px 0px 50px #E75151,0px 0px 50px #E75151  ;
+  
+  }
+  .ocircle2{
+      position: absolute;
+      background-color:#E75151;
+      width:65px;
+      height:50px;
+      margin-top: 6%;
+      margin-left:-50% ;
+     
+  }
+  .skillss .sk4 .circle13{
+      border:2px solid white;
+      background-color: white;
+      width:60px;
+      height:60px;
+      border-radius: 45px;
+      margin-top: -21%;
+      margin-left: -8%;
+      box-shadow:0px 0px 50px #E75151,0px 0px 50px #E75151  ;
+  
+  }
+  .ocircle3{
+      position: absolute;
+      background-color:#E75151;
+      width:65px;
+      height:170px;
+      margin-top: 6%;
+      margin-top: 15%;
+      margin-left:-50% ;
+     
+  }
+  .skills .sk1 img{
+      position: absolute;
+      width:50px;
+      height:50px;
+      margin-left: -5%;
+      margin-top: 2.5%;
+  }
+  .skills .sk2 img{
+      position: absolute;
+      width:50px;
+      height:50px;
+      margin-left: -4%;
+      margin-top: 1%;
+  }
+  .skills .sk3 img{
+      position: absolute;
+      width:50px;
+      height:50px;
+      margin-left: -4.5%;
+      margin-top: 3%;
+  }
+  .skills .sk4 img{
+      position: absolute;
+      width:50px;
+      height:50px;
+      margin-left: -5%;
+      margin-top: 1.5%;
+  }
+  .skills .glowcircle{
+   display: none;
+  }
+  .skills .glowcircle1{
+     display:none;
+  }
+  .skills .glowcircle2{
+      display: none;
+  }
+  .skills .glowcircle3{
+      display: none;
+  }
+  .tools{
+      border:2px solid black;
+      width:100%;
+      height:600px;
+      background-color: black; 
+  }
+  .tools .rectangle{
+      width:100%;
+      height:9%;
+      background-color: #E75151;
+      margin-top: 9%;
+  }
+  .tools .rectangle .circle14{
+      position: absolute;
+      width:50px;
+      height:50px;
+      border-radius:45px;
+      margin-top: 6.5%;
+      margin-left:-1% ;
+      background-color: black;
+  }
+  .tools .rectangle .circle15{
+      position: absolute;
+      width:50px;
+      height:50px;
+      border-radius:45px;
+      margin-top: 6.5%;
+      margin-left: 8%;
+      background-color: black;
+  }
+  .tools .rectangle .circle16{
+      position: absolute;
+      width:50px;
+      height:50px;
+      border-radius:45px;
+      margin-top: 6.5%;
+      margin-left: 16%;
+      background-color: black;
+  }
+  .tools .rectangle .circle17{
+      position: absolute;
+      width:50px;
+      height:50px;
+      border-radius:45px;
+      margin-top: 6.5%;
+      margin-left: 24%;
+      background-color: black;
+  }
+  .tools .rectangle .circle18{
+      position: absolute;
+      width:50px;
+      height:50px;
+      border-radius:45px;
+      margin-top: 6.5%;
+      margin-left: 24%;
+      background-color: black;
+  }
+  .tools .rectangle .circle19{
+      position: absolute;
+      width:50px;
+      height:50px;
+      border-radius:45px;
+      margin-top: 6.5%;
+      margin-left: 32%;
+      background-color: black;
+  }
+  .tools .rectangle .circle20{
+      position: absolute;
+      width:50px;
+      height:50px;
+      border-radius:45px;
+      margin-top: 6.5%;
+      margin-left: 40%;
+      background-color: black;
+  }
+  .tools .rectangle .circle21{
+      position: absolute;
+      width:50px;
+      height:50px;
+      border-radius:45px;
+      margin-top: 6.5%;
+      margin-left: 48%;
+      background-color: black;
+  }
+  .tools .rectangle .circle22{
+      position: absolute;
+      width:50px;
+      height:50px;
+      border-radius:45px;
+      margin-top: 6.5%;
+      margin-left: 56%;
+      background-color: black;
+  }
+  .tools .rectangle .circle23{
+      position: absolute;
+      width:50px;
+      height:50px;
+      border-radius:45px;
+      margin-top: 6.5%;
+      margin-left: 64%;
+      background-color: black;
+  }
+  .tools .rectangle .circle24{
+      position: absolute;
+      width:50px;
+      height:50px;
+      border-radius:45px;
+      margin-top: 6.5%;
+      margin-left: 72%;
+      background-color: black;
+  }
+  .tools .rectangle .circle25{
+      position: absolute;
+      width:50px;
+      height:50px;
+      border-radius:45px;
+      margin-top: 6.5%;
+      margin-left: 80%;
+      background-color: black;
+  }
+  .tools .rectangle .circle26{
+      position: absolute;
+      width:50px;
+      height:50px;
+      border-radius:45px;
+      margin-top: 6.5%;
+      margin-left: 88%;
+      background-color: black;
+  }
+  .tools .rectangle .circle28{
+      position: absolute;
+      width:50px;
+      height:50px;
+      border-radius:45px;
+      margin-top: 6.5%;
+      margin-left: 96%;
+      background-color: black;
+  }
+  
+  .tools  p {
+      position: absolute;
+      color:white;
+      margin-left: 45%;
+      margin-top: 9%;
+      font-size: 24px;
+  }
+  .tools hr{
+      border-top:3px solid white;
+      width:50px;
+      margin-top: 19%;
+      margin-left:46.5%;
+  }
+  .tools .tool1 .img1 {
+      width: 9%;
+      height:9%;
+      margin-left: 20%;
+      margin-top: 15%;
+  
+  }
+  .tools .tool2 .img2 {
+      width:10%;
+      height:15%;
+      margin-left: 45%;
+      margin-top: -20%;
+  
+  }
+  .tools .tool3 .img3{
+      width:10%;
+      height:15%;
+      margin-left: 70%;
+      margin-top: -30%;
+  
+  }
+  .begginer1   .b1 {
+      color:white;
+      margin-left: 21%;
+      font-size: 12px;
+      margin-top:-8% ;
+      
+  }
+  .begginer2 .b2{
+      color:white;
+      margin-left: 45.5%;
+      margin-top: -4.5%;
+      font-size: 12px;
+      
+  }
+  .begginer3 .b3{
+      color:white;
+      margin-left: 71%;
+      margin-top: -4.5%;
+      font-size: 12px;
+      
+  }
+  .tools .glowcircle4{
+      border:2px solid white;
+      position: absolute;
+      width:15px;
+      height:15px;
+      border-radius:45px;
+      margin-top: 30%;
+      margin-left: 3%;
+      background-color: white;
+      box-shadow:0px 0px 30px white,0px 0px 30px white;
+  }
+  .tools .glowcircle5{
+      border:2px solid white;
+      position: absolute;
+      width:15px;
+      height:15px;
+      border-radius:45px;
+      margin-top: -55%;
+      margin-left: 3%;
+      background-color: white;
+      box-shadow:0px 0px 50px white,0px 0px 50px white;
+  }
+  .tools .glowcircle6{
+      border:2px solid white;
+      position: absolute;
+      width:15px;
+      height:15px;
+      border-radius:45px;
+      margin-top: -55%;
+      margin-left: 93%;
+      background-color: white;
+      box-shadow:0px 0px 50px white,0px 0px 50px white;
+  }
+  .tools .glowcircle7{
+      border:2px solid white;
+      position: absolute;
+      width:15px;
+      height:15px;
+      border-radius:45px;
+      margin-top: 30%;
+      margin-left: 93%;
+      background-color: white;
+      box-shadow:0px 0px 30px white,0px 0px 30px white;
+  }
+  .projects{
+      border:2px solid black;
+      width:100%;
+      height:1400px;
+      background-color: black; 
+  }
+  .projects p{
+      position: absolute;
+      color:#E75151;
+      margin-left: 45%;
+      margin-top: 6%;
+      font-size: 24px;
+  }
+  .projects hr{
+      border-top:3px solid #E75151 ;
+      width:50px;
+      margin-top: 11%;
+      margin-left:48%;
+  }
+  .projects .project{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-column-gap:30%;
+      grid-row-gap:15%;
+      margin-top: 25%;
+      margin-left: 10%;
+      width:80%;
+      height:45%;
+  
+  }
+  .projects .project .project1{
+      border:2px solid white;
+      border-radius:20px;
+  
+  }
+  .projects .project .project2{
+      border:2px solid white;
+      border-radius:20px;
+  }
+  .projects  .project3{
+      border:2px solid white;
+      border-radius:20px;
+      margin-left: 36.5%;
+      margin-top: 90%;
+      width:30%;
+      height:20%;
+  }
+  .projects .project .project1 p {
+      color:white;
+      margin-left: 3.5%;
+      font-size: 16px;
+      margin-top: 3%;
+  
+  }
+  .projects .project .project1 .description1{
+      color:white;
+      margin-left: 3.5%;
+      font-size: 16px;
+      margin-top: 15%;
+      width:55%;
+  
+  }
+  .projects .project .project1 img{
+      width:35px;
+      height:35px;
+      margin-top: 45%;
+      margin-left: 5%;
+  }
+  .projects .project .project1 .onprocess{
+      position: absolute;
+      color:white;
+      margin-left:15%;
+      margin-top: -6%;
+  }
+  .projects .project .project1 .gb1{
+      position: absolute;
+      width:15%;
+      height:30px;
+      margin-left: 55%;
+      margin-top:-8%;
+      border-radius:45px;
+      background-color: #E75151;
+      box-shadow:0 0 20px #E75151, 0 0 20px #E75151;
+  }
+  .projects .project .project1 .gb1 p{
+      color:white;
+      margin-left: 15px;
+      margin-top: -1px;
+  }
+  .projects .project .project2 p {
+      color:white;
+      margin-left: 3.5%;
+      font-size: 18px;
+      margin-top: 3%;
+  
+  }
+  .projects .project .project2 .description2{
+      color:white;
+      margin-left: 3.5%;
+      font-size: 16px;
+      margin-top: 15%;
+      width:55%;
+  
+  }
+  .projects .project .project2 img{
+      width:35px;
+      height:35px;
+      margin-top: 45%;
+      margin-left: 5%;
+  }
+  .projects .project .project2 .onprocess{
+      position: absolute;
+      color:white;
+      font-size: 16px;
+      margin-left:15%;
+      margin-top: -6%;
+  }
+  .projects .project .project2 .gb2{
+      position: absolute;
+      width:15%;
+      height:30px;
+      border-radius:45px;
+      margin-left: 55%;
+      margin-top:-8%;
+      background-color: #E75151;
+      box-shadow:0 0 20px #E75151, 0 0 20px #E75151;
+  }
+  .projects .project .project2 .gb2 p{
+      color:white;
+      margin-left: 15px;
+      margin-top: -1px;
+  }
+  .projects .project3{
+      border:2px solid white;
+      width:80%;
+      height:20%;
+      margin-top: 15%;
+      margin-left: 10%;
+  }
+
+  .projects  .project3 .description3{
+      color:white;
+      margin-left: 3.5%;
+      font-size: 16px;
+      margin-top: 15%;
+      width:55%;
+  
+  }
+  .projects  .project3 img{
+      width:35px;
+      height:35px;
+      margin-top: 45%;
+      margin-left: 5%;
+  }
+  .projects  .project3 .available{
+      position: absolute;
+      color:white;
+      font-size: 16px;
+      margin-left:15%;
+      margin-top: -6%;
+  }
+  .projects  .project3 .gb3{
+      position: absolute;
+      width:15%;
+      height:30px;
+      border-radius:45px;
+      margin-left: 55%;
+      margin-top:-8%;
+      background-color: #E75151;
+      box-shadow:0 0 20px #E75151, 0 0 20px #E75151;
+  }
+  .projects  .project3 .gb3 p{
+      color:white;
+      margin-left: 15px;
+      margin-top: -1px;
+      font-size: 16px;
+  }
+  .projects  .project3 .project4{
+      position: absolute;
+      color:white;
+      margin-top: 3%;
+      margin-left: 10%;
+      font-size: 18px;
+      width:15%;
+  
+  }
+  .connect{
+      border:2px solid black;
+      background-color: black;
+      width:100%;
+      height:1000px;
+      background-color: black; 
+  }
+  .connect .circle29{
+      position: absolute;
+      width:50px;
+      height:50px;
+      border-radius:45px;
+      margin-top: 6.5%;
+      margin-left: 98%;
+      background-color:#E75151;
+  
+  }
+  .connect .circle30{
+      position: absolute;
+      width:15px;
+      height:15px;
+      border-radius:45px;
+      margin-top: 6.5%;
+      margin-left: 3%;
+      background-color:#E75151;
+  
+  }
+  .connect .circle31{
+      position: absolute;
+      width:40px;
+      height:40px;
+      border-radius:45px;
+      margin-top: 75%;
+      margin-left: 75%;
+      background-color:grey;
+  
+  }
+  .connect .circle32{
+      position: absolute;
+      width:30px;
+      height:30px;
+      border-radius:45px;
+      margin-top: 115%;
+      margin-left: -3%;
+      background-color:rgb(219, 219, 219);
+      overflow: hidden;
+  
+  }
+  .connect .circle33{
+      position: absolute;
+      width:25px;
+      height:25px;
+      border-radius:45px;
+      margin-top: 30%;
+      margin-left: 53%;
+      background-color:rgb(64, 61, 61);
+      overflow: hidden;
+  
+  }
+  .connect .circle34{
+      position: absolute;
+      width:25px;
+      height:25px;
+      border-radius:45px;
+      margin-top: 190%;
+      margin-left: 90%;
+      background-color:#E75151;
+      overflow: hidden;
+  
+  }
+  .connect .circle35{
+      position: absolute;
+      width:25px;
+      height:25px;
+      border-radius:45px;
+      margin-top: 13%;
+      margin-left: 90%;
+      background-color:rgb(36, 35, 35);
+      overflow: hidden;
+  
+  }
+  .connect .circle36{
+      position: absolute;
+      width:35px;
+      height:35px;
+      border-radius:45px;
+      margin-top: 50%;
+      margin-left: 95%;
+      background:linear-gradient(#E75151,black);
+  
+  }
+  .connect .start{
+      color:white;
+      margin-left: 8%;
+      margin-top: 20%;
+  }
+  .connect .start h1{
+      font-size: 24px;
+  }
+  .connect .saying {
+      color:white;
+      margin-left: 8%;
+  }
+  .connect .saying h1{
+      font-size: 24px;
+  }
+  .connect .saying p {
+      position: absolute;
+      color:#E75151;
+      margin-left: 18%;
+      margin-top: -5.3%;
+  
+  }
+  .connect .glowcircle8{
+      width:25%;
+      height:3%;
+      margin-top: 8%;
+      margin-left:8%;
+      border-radius:45px;
+      background-color: #E75151;
+      box-shadow: 0 0 20px#E75151,0 0 20px #E75151 ;
+  }
+  .connect .glowcircle8 p{
+      color:black;
+      text-align: center;
+      padding: 2%;  
+  }
+  .connect .connectthrough img{
+      width:5%;
+      height:5%;
+      margin-left: 2%;
+      margin-top: 5%;
+  }
+  .connect .connectthrough {
+      margin-left: 6%;
+      margin-top: 3%;
+  }
+  .connect .connectthrough .connectoutline{
+      border:2px solid white;
+      width:5%;
+      height:5rem;
+      margin-left: 50%;
+      margin-top: -30%;
+      border-radius:20px;
+  }
+  .connect .connectthrough  .name input{
+      position:absolute;
+      width:23rem;
+      height:2.5rem;
+      margin-left: 50%;
+      margin-top: -20%;
+      border-radius:10px;
+      background-color: #3d3d3d;
+  }
+  .connect .connectthrough  .second input{
+      width:23rem;
+      height:2.5rem;
+      margin-left: -12%;
+      margin-top: -20%;
+      border-radius:10px;
+      background-color: #404040;
+  }
+  .connect .connectthrough  .name ::placeholder{
+      color:white;
+      opacity: 0.9;
+      font-size: 14px;
+      padding-left:2%;
+  }
+  .connect .connectthrough  .second ::placeholder{
+      color:white;
+      opacity: 0.9;
+      font-size: 14px;
+      padding-left:2%;
+  }
+  .connect .connectthrough  .third ::placeholder{
+      color:white;
+      opacity: 0.9;
+      font-size: 14px;
+      padding-left:2%;
+  }
+  .connect .connectthrough  .third input{
+      width:23rem;
+      height:9rem;
+      margin-left: -12%;
+      margin-top: -10%;
+      border-radius:10px;
+      background-color: #404040;
+  }
+  
+  
+  .connect .connectthrough .top{
+      position: absolute;
+      color:white;
+      margin-top:8rem;
+      margin-left: 6rem;
+      font-size: 18px;
+  }
+  .connect .connectthrough .name{
+      position: absolute;
+      color:white;
+      margin-top:13rem;
+      margin-left: 2rem;
+      font-size: 18px;
+  }
+  .connect .connectthrough .second{
+      position: absolute;
+      color:white;
+      margin-top:18rem;
+      margin-left: 4.5rem;
+      font-size: 18px;
+  }
+  .connect .connectthrough .third{
+      position: absolute;
+      color:white;
+      margin-top:25rem;
+      margin-left: 4.5rem;
+      font-size: 18px;
+  }
+  .connect .connectthrough .connectoutline{
+      position: absolute;
+      border:1px solid white;
+      width:25rem;
+      height:35rem;
+      margin-top: 20%;
+      margin-left: 3%;
+      border-radius:30px;
+  }
+  .connect .connectthrough .submit{
+      position: absolute;
+      margin-top:35rem;
+      margin-left: 9rem;
+      font-size: 18px;
+  }
+  .connect .connectthrough  .submit input{
+      position:absolute;
+      color:white;
+      font-size: 16px;
+      width:10rem;
+      height:3rem;
+      margin-left: 45%;
+      margin-top: -20%;
+      border-radius:10px;
+      background-color: #404040;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
